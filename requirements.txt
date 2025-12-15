@@ -1,9 +1,14 @@
+# Computer Vision Course - Common Dependencies
+
+# Each project has its own requirements.txt
+# Install project-specific dependencies:
+# cd 01_insulator_segmentation && pip install -r requirements.txt
+
+# Common packages across projects
 torch>=2.0.0
 torchvision>=0.15.0
 numpy>=1.24.0
 opencv-python>=4.8.0
-albumentations>=1.3.0
-scikit-learn>=1.3.0
 matplotlib>=3.7.0
 tqdm>=4.65.0
 Pillow>=10.0.0
