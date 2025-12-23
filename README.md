@@ -40,26 +40,28 @@ This repository contains practical implementations and projects completed during
 
 ---
 
-## 📚 Seminar Assignments
+## 📚 Course Notebooks
 
-Practical notebooks implementing various computer vision and deep learning concepts:
+Comprehensive notebooks covering the full Deep Learning and Computer Vision curriculum:
 
-### Neural Networks & Deep Learning
-- **Seminar 1**: Introduction to Computer Vision and PyTorch basics
-- **Seminar 2 Part 1**: Gradient descent and optimization algorithms
-- **Seminar 2 Part 2**: Wine classification with neural networks
-- **Seminar 3**: Advanced classification techniques
+### Fundamentals
+1. **PyTorch Fundamentals** - Introduction to PyTorch and tensor operations
+2. **Gradient Descent & Optimization** - Optimization algorithms and convergence
+3. **Neural Network Classification** - Building classifiers from scratch
+4. **Advanced Classification Techniques** - Ensemble methods and regularization
 
 ### Convolutional Neural Networks
-- **Seminar 5 Part 1**: CNN fundamentals and forward pass implementation
-- **Seminar 5 Part 2**: Dense and convolutional neural networks
-- **Seminar 5 Part 3**: AlexNet implementation and activation map visualization
+5. **CNN From Scratch** - Implementing convolutional layers and forward pass
+6. **Fully Connected vs CNN** - Comparing dense and convolutional architectures
+7. **AlexNet Architecture** - Classic CNN implementation and analysis
 
-### Advanced Topics
-- **Seminar 6 Part 1**: Advanced CNN architectures
-- **Seminar 6 Part 2**: Object detection techniques
-- **Seminar 8**: Deep learning optimization and regularization
-- **Seminar 10 Part 1**: Semantic segmentation (U-Net, SegNet, loss functions)
+### Advanced Architectures
+8. **ResNet & VGG Architectures** - Deep residual networks and VGG
+9. **Object Detection Methods** - Detection techniques and frameworks
+10. **DL Optimization & Regularization** - Advanced training techniques
+
+### Semantic Segmentation
+11. **Semantic Segmentation: U-Net & SegNet** - Pixel-wise classification with encoder-decoder architectures
 
 ---
 
@@ -67,29 +69,29 @@ Practical notebooks implementing various computer vision and deep learning conce
 
 ```
 computer_vision_course/
-├── README.md                        # This file
-├── Murat_Raimbekov_CV.pdf          # Resume/CV
-├── requirements.txt                 # Common dependencies
+├── README.md                                    # This file
+├── Murat_Raimbekov_CV.pdf                      # Resume/CV
+├── requirements.txt                             # Common dependencies
 │
-├── Seminar_1.ipynb                  # Seminar notebooks
-├── Seminar_2_part1.ipynb
-├── Seminar_2_part2.ipynb
-├── Seminar_3.ipynb
-├── Seminar_5_part1.ipynb           # CNN implementation
-├── Seminar_5_part2.ipynb
-├── Seminar_5_part3.ipynb
-├── Seminar_6_part1.ipynb
-├── Seminar_6_part2.ipynb
-├── Seminar_8.ipynb
-├── Seminar_10_part1.ipynb          # Segmentation
+├── 01_PyTorch_Fundamentals.ipynb               # Course notebooks
+├── 02_Gradient_Descent_Optimization.ipynb
+├── 03_Neural_Network_Classification.ipynb
+├── 04_Advanced_Classification_Techniques.ipynb
+├── 05_CNN_From_Scratch.ipynb
+├── 06_Fully_Connected_vs_CNN.ipynb
+├── 07_AlexNet_Architecture.ipynb
+├── 08_ResNet_VGG_Architectures.ipynb
+├── 09_Object_Detection_Methods.ipynb
+├── 10_DL_Optimization_Regularization.ipynb
+├── 11_Semantic_Segmentation_UNet_SegNet.ipynb
 │
-├── 01_insulator_segmentation/       # Project 1
+├── 01_insulator_segmentation/                   # Projects
 │   ├── insulator_segmentation.ipynb
 │   ├── requirements.txt
 │   ├── README.md
 │   └── samples/
 │
-└── 02_grain_classification/         # Project 2
+└── 02_grain_classification/
     └── grain_classification.ipynb
 ```
 
@@ -190,10 +192,10 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 
 ## 🚀 Usage
 
-### Running Jupyter Notebooks
+### Running Course Notebooks
 
 ```bash
-jupyter notebook Seminar_1.ipynb
+jupyter notebook 01_PyTorch_Fundamentals.ipynb
 ```
 
 ### Running Project Notebooks
